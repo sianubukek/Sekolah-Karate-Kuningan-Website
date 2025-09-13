@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Instructors from './pages/Instructors';
 import FAQ from './pages/FAQ';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/tentang" element={<About />} />
           <Route path="/instruktur" element={<Instructors />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/kontak" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

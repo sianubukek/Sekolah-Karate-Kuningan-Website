@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     { name: 'Tentang Kami', path: '/tentang' },
     { name: 'Instruktur', path: '/instruktur' },
     { name: 'FAQ', path: '/faq' },
-    { name: 'Kontak', path: '#kontak' },
+    { name: 'Kontak', path: '/kontak' },
   ];
 
   return (
@@ -30,7 +30,6 @@ const Navbar: React.FC = () => {
                 alt="SKK Logo" 
                 className="h-12 w-auto mr-3"
               />
-              <span className="text-xl font-bold">Sekolah Karate Kuningan</span>
             </Link>
           </motion.div>
 

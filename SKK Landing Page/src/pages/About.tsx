@@ -173,6 +173,87 @@ const About: React.FC = () => {
         </div>
       </section>
 
+      {/* Karate Oath Section */}
+      <section className="py-16 bg-skk-red text-skk-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            variants={staggerChildren}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <motion.h2
+              variants={fadeInUp}
+              className="text-3xl md:text-4xl font-bold mb-8"
+            >
+              Sumpah Karate
+            </motion.h2>
+            <motion.p
+              variants={fadeInUp}
+              className="text-xl text-gray-100 mb-12 max-w-4xl mx-auto"
+            >
+              Sebagai bagian dari tradisi karate yang mulia, setiap siswa SKK memegang teguh nilai-nilai luhur yang tercermin dalam Sumpah Karate. 
+              Sumpah ini bukan hanya kata-kata, melainkan komitmen hidup yang membentuk karakter dan kepribadian.
+            </motion.p>
+            <motion.div
+              variants={fadeInUp}
+              className="bg-skk-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto"
+            >
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-skk-white bg-opacity-20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-skk-white font-bold text-lg">1</span>
+                  </div>
+                  <p className="text-lg text-skk-white leading-relaxed">
+                    <span className="font-semibold">Sanggup memelihara kepribadian</span> - Membangun karakter yang kuat, disiplin, dan berintegritas dalam setiap aspek kehidupan.
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-skk-white bg-opacity-20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-skk-white font-bold text-lg">2</span>
+                  </div>
+                  <p className="text-lg text-skk-white leading-relaxed">
+                    <span className="font-semibold">Sanggup patuh pada kejujuran</span> - Menjunjung tinggi nilai kejujuran dalam setiap tindakan dan keputusan yang diambil.
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-skk-white bg-opacity-20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-skk-white font-bold text-lg">3</span>
+                  </div>
+                  <p className="text-lg text-skk-white leading-relaxed">
+                    <span className="font-semibold">Sanggup mempertinggi prestasi</span> - Berkomitmen untuk terus belajar, berkembang, dan mencapai prestasi terbaik dalam karate dan kehidupan.
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-skk-white bg-opacity-20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-skk-white font-bold text-lg">4</span>
+                  </div>
+                  <p className="text-lg text-skk-white leading-relaxed">
+                    <span className="font-semibold">Sanggup menjaga sopan santun</span> - Menghormati sesama, menghargai senior, dan menunjukkan rasa hormat dalam setiap interaksi.
+                  </p>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-skk-white bg-opacity-20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-skk-white font-bold text-lg">5</span>
+                  </div>
+                  <p className="text-lg text-skk-white leading-relaxed">
+                    <span className="font-semibold">Sanggup menguasai diri</span> - Mengembangkan kontrol diri yang baik, kesabaran, dan kemampuan untuk mengendalikan emosi dalam situasi apapun.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+            <motion.p
+              variants={fadeInUp}
+              className="text-lg text-gray-100 mt-8 max-w-3xl mx-auto italic"
+            >
+              "Sumpah ini adalah fondasi moral yang membimbing setiap langkah perjalanan karate kami, 
+              menciptakan tidak hanya atlet yang handal, tetapi juga manusia yang berkarakter mulia."
+            </motion.p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Values Section */}
       <section className="py-16 bg-skk-black text-skk-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
