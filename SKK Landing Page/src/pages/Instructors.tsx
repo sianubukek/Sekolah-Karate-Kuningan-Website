@@ -21,9 +21,9 @@ const Instructors: React.FC = () => {
       name: "Heni E. Sulastri",
       rank: "Sabuk Hitam Dan V",
       experience: "30 tahun pengalaman",
-      specialty: "Pendiri SKK & Guru Besar",
-      description: "Pemegang sabuk hitam Dan 3 dengan pengalaman mengajar lebih dari 30 tahun. Spesialis dalam teknik kumite dan kihon dasar.",
-      achievements: ["Juara 1 Asia Pacific 1991"],
+      specialty: "Pendiri SKK",
+      description: "Pemegang sabuk hitam Dan V dengan pengalaman mengajar lebih dari 30 tahun. Spesialis dalam teknik kumite dan kihon dasar.",
+      achievements: ["Juara 1 Asia Pacific 1991", "BINPRES FORKI 1991", "BINPRES BUDOKAI 1991", "Sport Science KONI 1991"],
       image: "/Heni.jpeg"
     }
   ];
