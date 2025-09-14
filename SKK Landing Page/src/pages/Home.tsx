@@ -102,14 +102,34 @@ const Home: React.FC = () => {
               className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8"
             >
               <div className="bg-skk-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-skk-black mb-2">Sensei Budi</h3>
-                <p className="text-skk-red font-medium mb-2">Sabuk Hitam Dan 3</p>
-                <p className="text-gray-600">15 tahun pengalaman</p>
+                <div className="flex items-center mb-4">
+                  <div className="w-16 h-16 bg-skk-red rounded-full flex items-center justify-center mr-4 overflow-hidden">
+                    <img 
+                      src="/Heni.jpeg" 
+                      alt="Heni E. Sulastri"
+                      className="w-full h-full object-cover rounded-full"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-skk-black mb-1">Heni E. Sulastri</h3>
+                    <p className="text-skk-red font-medium">Sabuk Hitam Dan V</p>
+                  </div>
+                </div>
+                <p className="text-gray-600 text-sm mb-2">Pendiri SKK & Guru Besar</p>
+                <p className="text-gray-600 text-sm">30 tahun pengalaman mengajar</p>
               </div>
               <div className="bg-skk-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-skk-black mb-2">Sensei Ratna</h3>
-                <p className="text-skk-red font-medium mb-2">Sabuk Hitam Dan 2</p>
-                <p className="text-gray-600">Juara Nasional Karate 2018</p>
+                <div className="flex items-center mb-4">
+                  <div className="w-16 h-16 bg-skk-red rounded-full flex items-center justify-center mr-4">
+                    <span className="text-skk-white font-bold text-xl">+</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-skk-black mb-1">Tim Instruktur</h3>
+                    <p className="text-skk-red font-medium">Berpengalaman</p>
+                  </div>
+                </div>
+                <p className="text-gray-600 text-sm mb-2">Instruktur berkualitas</p>
+                <p className="text-gray-600 text-sm">Siap membimbing perjalanan karate Anda</p>
               </div>
             </motion.div>
             <motion.div variants={fadeInUp}>
