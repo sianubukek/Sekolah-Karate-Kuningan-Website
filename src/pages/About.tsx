@@ -131,11 +131,11 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Didirikan tahun 2005 oleh Sensei Agus, SKK telah melatih lebih dari 500 siswa 
+                  Didirikan tahun 2001 oleh Sensei Heni Sulastri, SKK telah melatih lebih dari 500 siswa 
                   dan mencetak puluhan atlet berprestasi tingkat daerah dan nasional.
                 </p>
                 <p>
-                  Selama 20 tahun perjalanan, kami telah membuktikan komitmen dalam mengembangkan 
+                  Selama lebih dari 20 tahun perjalanan, kami telah membuktikan komitmen dalam mengembangkan 
                   karate di Kuningan dan sekitarnya, dengan fokus pada pembentukan karakter dan 
                   prestasi olahraga.
                 </p>

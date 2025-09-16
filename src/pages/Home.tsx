@@ -115,7 +115,7 @@ const Home: React.FC = () => {
                     <p className="text-skk-red font-medium">Sabuk Hitam Dan V</p>
                   </div>
                 </div>
-                <p className="text-gray-600 text-sm mb-2">Pendiri SKK & Guru Besar</p>
+                <p className="text-gray-600 text-sm mb-2">Pendiri SKK</p>
                 <p className="text-gray-600 text-sm">30 tahun pengalaman mengajar</p>
               </div>
               <div className="bg-skk-white p-6 rounded-lg shadow-md">
